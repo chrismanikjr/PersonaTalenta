@@ -10,12 +10,12 @@
 		7C5BDB16298187890041C580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BDB15298187890041C580 /* AppDelegate.swift */; };
 		7C5BDB18298187890041C580 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BDB17298187890041C580 /* SceneDelegate.swift */; };
 		7C5BDB1A298187890041C580 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BDB19298187890041C580 /* ViewController.swift */; };
-		7C5BDB1D298187890041C580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5BDB1B298187890041C580 /* Main.storyboard */; };
 		7C5BDB1F2981878B0041C580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5BDB1E2981878B0041C580 /* Assets.xcassets */; };
 		7C5BDB222981878B0041C580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5BDB202981878B0041C580 /* LaunchScreen.storyboard */; };
 		7C5BDB2D2981878B0041C580 /* PersonaTalentaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BDB2C2981878B0041C580 /* PersonaTalentaTests.swift */; };
 		7C5BDB372981878B0041C580 /* PersonaTalentaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BDB362981878B0041C580 /* PersonaTalentaUITests.swift */; };
 		7C5BDB392981878B0041C580 /* PersonaTalentaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BDB382981878B0041C580 /* PersonaTalentaUITestsLaunchTests.swift */; };
+		7CFB16F429A51C2600C7002A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB16F329A51C2600C7002A /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		7C5BDB15298187890041C580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C5BDB17298187890041C580 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7C5BDB19298187890041C580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C5BDB1C298187890041C580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C5BDB1E2981878B0041C580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C5BDB212981878B0041C580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C5BDB232981878B0041C580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		7C5BDB322981878B0041C580 /* PersonaTalentaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonaTalentaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5BDB362981878B0041C580 /* PersonaTalentaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaTalentaUITests.swift; sourceTree = "<group>"; };
 		7C5BDB382981878B0041C580 /* PersonaTalentaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaTalentaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CFB16F329A51C2600C7002A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +102,10 @@
 				7C5BDB15298187890041C580 /* AppDelegate.swift */,
 				7C5BDB17298187890041C580 /* SceneDelegate.swift */,
 				7C5BDB19298187890041C580 /* ViewController.swift */,
-				7C5BDB1B298187890041C580 /* Main.storyboard */,
 				7C5BDB1E2981878B0041C580 /* Assets.xcassets */,
 				7C5BDB202981878B0041C580 /* LaunchScreen.storyboard */,
 				7C5BDB232981878B0041C580 /* Info.plist */,
+				7CFB16F529A51C2B00C7002A /* Login+Register */,
 			);
 			path = PersonaTalenta;
 			sourceTree = "<group>";
@@ -125,6 +125,22 @@
 				7C5BDB382981878B0041C580 /* PersonaTalentaUITestsLaunchTests.swift */,
 			);
 			path = PersonaTalentaUITests;
+			sourceTree = "<group>";
+		};
+		7CFB16F529A51C2B00C7002A /* Login+Register */ = {
+			isa = PBXGroup;
+			children = (
+				7CFB16F629A51C3800C7002A /* VIewController */,
+			);
+			path = "Login+Register";
+			sourceTree = "<group>";
+		};
+		7CFB16F629A51C3800C7002A /* VIewController */ = {
+			isa = PBXGroup;
+			children = (
+				7CFB16F329A51C2600C7002A /* LoginViewController.swift */,
+			);
+			path = VIewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +249,6 @@
 			files = (
 				7C5BDB222981878B0041C580 /* LaunchScreen.storyboard in Resources */,
 				7C5BDB1F2981878B0041C580 /* Assets.xcassets in Resources */,
-				7C5BDB1D298187890041C580 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CFB16F429A51C2600C7002A /* LoginViewController.swift in Sources */,
 				7C5BDB1A298187890041C580 /* ViewController.swift in Sources */,
 				7C5BDB16298187890041C580 /* AppDelegate.swift in Sources */,
 				7C5BDB18298187890041C580 /* SceneDelegate.swift in Sources */,
@@ -297,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7C5BDB1B298187890041C580 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C5BDB1C298187890041C580 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7C5BDB202981878B0041C580 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +450,6 @@
 				INFOPLIST_FILE = PersonaTalenta/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +477,6 @@
 				INFOPLIST_FILE = PersonaTalenta/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
